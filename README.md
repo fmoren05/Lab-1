@@ -1,2 +1,3 @@
 # Lab-1
  
+Lab 1 introduced us to the concept of motor control using a microcontroller. The source code developed controls a DC motor, allowing it to rotate in both directions. The GPIO pin assignments for turning on the motor (EN), adjusting the direction (CH1 and CH2), and setting up a timer for PWM control are initialized in the MotorDriver class. Users can control both the direction and torque of the motor by setting its duty cycle with the set_duty_cycle function. The motor rotates in one direction when CH1 is set to zero and CH2 is set to a positive duty cycle, the opposite direction when CH2 is set to zero, and CH1 is set to a positive duty cycle, and stops when the duty cycle is zero for both channels. 
